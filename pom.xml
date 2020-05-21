@@ -203,6 +203,20 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
+             
+             <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-44-142-releases</name>
+        <url>http://ec2-13-127-106-39.ap-south-1.compute.amazonaws.com:8081/artifactory/My-local-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-44-142-snapshots</name>
+        <url>http://ec2-13-127-106-39.ap-south-1.compute.amazonaws.com:8081/artifactory/My-local-repo</url>
+    </snapshotRepository>
+</distributionManagement>
+             
     </dependencies>
   </dependencyManagement>
 
@@ -216,20 +230,6 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-         
-         <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-44-142-releases</name>
-        <url>http://ec2-13-127-106-39.ap-south-1.compute.amazonaws.com:8081/artifactory/My-local-repo</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-44-142-snapshots</name>
-        <url>http://ec2-13-127-106-39.ap-south-1.compute.amazonaws.com:8081/artifactory/My-local-repo</url>
-    </snapshotRepository>
-</distributionManagement>
-    
 
 </project>
 
