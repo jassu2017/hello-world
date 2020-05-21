@@ -216,13 +216,15 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
-</project>
-
-<distributionManagement>
+         
+         <distributionManagement>
     <repository>
         <id>central</id>
         <name>ip-172-31-44-142-releases</name>
         <url>http://ec2-13-127-106-39.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-release-local</url>
     </repository>
 </distributionManagement>
+
+</project>
+
+
